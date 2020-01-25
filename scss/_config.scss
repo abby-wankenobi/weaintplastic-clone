@@ -1,1 +1,10 @@
 $primary-color: #444;
+
+
+@mixin easeOut {
+    transition: all .75s ease-out;
+}
+
+@mixin easeIn {
+    transition: all .75s ease-in;
+}
