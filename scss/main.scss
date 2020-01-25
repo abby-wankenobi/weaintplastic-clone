@@ -1,58 +1,24 @@
-// * { 
-//     margin: 0; 
-//     padding: 0; 
-//     border: 0; 
-// }
-// 
-// body html {
-//     height: 100%;
-//     width: 100%;
-// }
-// 
-// body { 
-//     font: 62.5%/1.5  'Quicksand', Tahoma, Verdana, sans-serif; 
-//     color: black;     
-//     text-align:center; 
-// } 
-// 
-// h1 { 
-//     font-size: 2.2em; 
-// } 
-// 
-// h2 { 
-//     font-size: 2.0em;     
-// } 
-// 
-// h3 { 
-//     font-size: 1.8em; 
-// } 
-// 
-// h4 { 
-//     font-size: 1.6em;     
-// } 
-// 
-// h5 { 
-//     font-size: 1.4em;     
-// } 
-// 
-// p { 
-//     font-size: 1.2em;     
-// }
-// 
-// .clear { 
-//     clear:both; 
-// } 
-// 
-// .right { 
-//     float: right; 
-// } 
-// 
-// .left { 
-//     float: left; 
-// }
+@import 'config';
 
-$primary-color: #444;
+* { 
+    box-sizing: border-box;
+}
 
 body {
-    background: $primary-color;
+    height: 100%;
+    margin: 0; 
+    font-family: 'QuickSand', Tahoma, Verdana, sans-serif;
+}
+
+// HEADINGS //
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
