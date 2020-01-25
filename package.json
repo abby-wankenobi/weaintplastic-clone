@@ -1,0 +1,14 @@
+{
+  "name": "weaintplastic-clone",
+  "version": "1.0.0",
+  "description": "we aint plastic clone",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Abigail Swarth",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
