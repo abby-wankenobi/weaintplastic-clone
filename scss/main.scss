@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 600;
     
 }
 
@@ -25,19 +25,69 @@ a {
     text-decoration: none;
 }
 
+.headline {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    
+    &:after {
+        width: 100px;
+        margin: 70px auto;
+        content: '';
+        display: block;
+        background: #1D1D1F;
+        height: 4px;
+    }
+}
+
 // Section One 
 #content_1 {
     padding: 30px 0;
     text-align: center; 
     height: 100vh;
     background-color: $background-color;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
     
     .logo {
-        // transform: translate(-50%,53%);
         width: 220px;
         height: auto;
     }
     .title {
         letter-spacing: .2rem;
+    }
+}
+
+// Section Two
+#content_2 {
+    margin-top: 0;
+    position: relative;
+    padding-top: 100px;
+    background: #FFF;
+    
+    &:before {
+        content: '';
+        display: block;
+        height: 150px;
+        width: 120%;
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+    
+    .gem-image {
+        transform: translate(-50%,-70%);
+        width: 30%;
+        max-width: 400px;
+        min-width: 250px;
+        height: auto;
+        left: 50%;
+        top: 0;
+        position: absolute;
+        z-index: 200;
     }
 }

@@ -23,7 +23,8 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
   .menu .menu-nav {
     list-style-type: none;
     margin: 0;
@@ -51,19 +52,61 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 600; }
 
 a {
   color: white;
   text-decoration: none; }
 
+.headline {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  font-size: 3rem;
+  letter-spacing: .5rem; }
+  .headline:after {
+    width: 100px;
+    margin: 70px auto;
+    content: '';
+    display: block;
+    background: #1D1D1F;
+    height: 4px; }
+
 #content_1 {
   padding: 30px 0;
   text-align: center;
   height: 100vh;
-  background-color: #F3F3F3; }
+  background-color: #F3F3F3;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%); }
   #content_1 .logo {
     width: 220px;
     height: auto; }
   #content_1 .title {
     letter-spacing: .2rem; }
+
+#content_2 {
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+  background: #FFF; }
+  #content_2:before {
+    content: '';
+    display: block;
+    height: 150px;
+    width: 120%;
+    position: relative;
+    left: 50%;
+    top: 0; }
+  #content_2 .gem-image {
+    transform: translate(-50%, -70%);
+    width: 30%;
+    max-width: 400px;
+    min-width: 250px;
+    height: auto;
+    left: 50%;
+    top: 0;
+    position: absolute;
+    z-index: 200; }
