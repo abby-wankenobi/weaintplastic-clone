@@ -24,15 +24,15 @@
   position: fixed;
   top: 0;
   width: 100%; }
-  .menu ul {
+  .menu .menu-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
-    display: flex;
+    display: none;
     justify-content: center; }
-    .menu ul li {
+    .menu .menu-nav li {
       float: left;
       text-align: center;
       color: black;
@@ -47,7 +47,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'QuickSand', Tahoma, Verdana, sans-serif;
-  background-color: #F3F3F3; }
+  background-color: white; }
 
 h1, h2, h3 {
   margin: 0;
@@ -56,3 +56,14 @@ h1, h2, h3 {
 a {
   color: white;
   text-decoration: none; }
+
+#content_1 {
+  padding: 30px 0;
+  text-align: center;
+  height: 100vh;
+  background-color: #F3F3F3; }
+  #content_1 .logo {
+    width: 220px;
+    height: auto; }
+  #content_1 .title {
+    letter-spacing: .2rem; }

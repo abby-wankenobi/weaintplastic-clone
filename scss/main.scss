@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0; 
     font-family: 'QuickSand', Tahoma, Verdana, sans-serif;
-    background-color: $background-color;
+    background-color: white;
 }
 
 // HEADINGS //
@@ -23,4 +23,21 @@ h1, h2, h3 {
 a {
     color: white;
     text-decoration: none;
+}
+
+// Section One 
+#content_1 {
+    padding: 30px 0;
+    text-align: center; 
+    height: 100vh;
+    background-color: $background-color;
+    
+    .logo {
+        // transform: translate(-50%,53%);
+        width: 220px;
+        height: auto;
+    }
+    .title {
+        letter-spacing: .2rem;
+    }
 }
