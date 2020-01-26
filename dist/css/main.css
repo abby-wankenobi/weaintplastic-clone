@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 3;
   right: 35px;
-  top: 35px;
+  top: 25px;
   cursor: pointer;
   transition: all .75s ease-out; }
   .menu-btn .btn-line {
@@ -20,13 +20,34 @@
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
 
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center; }
+    .menu ul li {
+      float: left;
+      text-align: center;
+      color: black;
+      padding: 25px 16px;
+      text-decoration: none;
+      font-weight: 700; }
+
 * {
   box-sizing: border-box; }
 
 body {
   height: 100%;
   margin: 0;
-  font-family: 'QuickSand', Tahoma, Verdana, sans-serif; }
+  font-family: 'QuickSand', Tahoma, Verdana, sans-serif;
+  background-color: #F3F3F3; }
 
 h1, h2, h3 {
   margin: 0;
