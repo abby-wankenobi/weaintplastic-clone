@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'sections';
 
 * { 
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 body {
     height: 100%;
     margin: 0; 
-    font-family: 'QuickSand', Tahoma, Verdana, sans-serif;
+    font-family: 'Lato', Tahoma, Verdana, sans-serif;
     background-color: white;
 }
 
@@ -32,8 +33,9 @@ a {
     left: 0;
     width: 100%;
     z-index: 200;
-    font-size: 3rem;
-    letter-spacing: .5rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 900;
     
     &:after {
         width: 100px;
@@ -45,49 +47,3 @@ a {
     }
 }
 
-// Section One 
-#content_1 {
-    padding: 30px 0;
-    text-align: center; 
-    height: 100vh;
-    background-color: $background-color;
-    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
-    
-    .logo {
-        width: 220px;
-        height: auto;
-    }
-    .title {
-        letter-spacing: .2rem;
-    }
-}
-
-// Section Two
-#content_2 {
-    margin-top: 0;
-    position: relative;
-    padding-top: 100px;
-    background: #FFF;
-    
-    &:before {
-        content: '';
-        display: block;
-        height: 150px;
-        width: 120%;
-        position: relative;
-        left: 50%;
-        top: 0;
-    }
-    
-    .gem-image {
-        transform: translate(-50%,-70%);
-        width: 30%;
-        max-width: 400px;
-        min-width: 250px;
-        height: auto;
-        left: 50%;
-        top: 0;
-        position: absolute;
-        z-index: 200;
-    }
-}
