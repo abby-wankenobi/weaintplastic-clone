@@ -4,10 +4,10 @@
     text-align: center; 
     height: 100vh;
     background-color: $background-color;
-    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
     
     .logo {
-        width: 220px;
+        width: 270px;
         height: auto;
     }
 }
@@ -30,7 +30,7 @@
     }
     
     .gem-image {
-        transform: translate(-50%,-70%);
+        transform: translate(-50%,-80%); 
         width: 30%;
         max-width: 400px;
         min-width: 250px;
