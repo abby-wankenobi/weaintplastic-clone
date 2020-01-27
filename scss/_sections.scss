@@ -1,0 +1,43 @@
+// Section One 
+#content_1 {
+    padding: 30px 0;
+    text-align: center; 
+    height: 100vh;
+    background-color: $background-color;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+    
+    .logo {
+        width: 270px;
+        height: auto;
+    }
+}
+
+// Section Two
+#content_2 {
+    margin-top: 0;
+    position: relative;
+    padding-top: 100px;
+    background: #FFF;
+    
+    &:before {
+        content: '';
+        display: block;
+        height: 150px;
+        width: 120%;
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+    
+    .gem-image {
+        transform: translate(-50%,-80%); 
+        width: 30%;
+        max-width: 400px;
+        min-width: 250px;
+        height: auto;
+        left: 50%;
+        top: 0;
+        position: absolute;
+        z-index: 200;
+    }
+}

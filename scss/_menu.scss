@@ -1,10 +1,9 @@
 // Menu Button
-
 .menu-btn {
     position: absolute;
     z-index: 3;
     right: 35px;
-    top: 35px;
+    top: 25px;
     cursor: pointer;
     @include easeOut;
     
@@ -25,7 +24,7 @@
             &:nth-child(1) {
                 transform: rotate(45deg) translate(5px, 5px)
             }
-            // Line 2 = Hide 
+            // Line 2 - hide 
             &:nth-child(2) {
                 opacity: 0;
             }
@@ -36,3 +35,34 @@
         }
     }
 }
+
+// Menu Overlay
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    
+    .menu-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        display: none;
+        justify-content: center;
+        
+        li {
+            float: left;
+            text-align: center;
+            color: black;
+            padding: 25px 16px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: .85rem;
+            letter-spacing: .2rem;
+        }
+    }
+}
+
