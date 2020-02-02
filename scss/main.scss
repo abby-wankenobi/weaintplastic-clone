@@ -39,7 +39,6 @@ a {
     align-items: center;
     -webkit-animation: example 3s ; /* Safari 4.0 - 8.0 */
     animation-name: example 3s;
-    // padding: 30px 0;
 }
 
 .headline {
@@ -63,3 +62,41 @@ a {
     }
 }
 
+#svg_logo {
+    width: 220px;
+    height: auto;
+}
+
+#svg_logo path:nth-child(1) {
+    stroke-dasharray: 10px;
+}
+#svg_logo path:nth-child(2) {
+    
+}
+#svg_logo path:nth-child(3) {
+    
+}
+#svg_logo path:nth-child(4) {
+    
+}
+#svg_logo path:nth-child(5) {
+    
+}
+#svg_logo path:nth-child(6) {
+    
+}
+#svg_logo path:nth-child(7) {
+    
+}
+#svg_logo path:nth-child(8) {
+    
+}
+#svg_logo path:nth-child(9) {
+    
+}
+#svg_logo path:nth-child(10) {
+    
+}
+#svg_logo path:nth-child(11) {
+    
+}
