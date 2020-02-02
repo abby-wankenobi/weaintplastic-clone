@@ -1,0 +1,93 @@
+.loading-svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#svg_logo {
+    width: 220px;
+    height: auto;
+    animation: fill 2s ease forwards 2.25s;
+}
+
+#svg_logo path:nth-child(1) {
+    stroke-dasharray: 493px;
+    stroke-dashoffset: 493px;
+    animation: svg-animation .75s ease forwards;
+}
+#svg_logo path:nth-child(2) {
+    stroke-dasharray: 364px;
+    stroke-dashoffset: 364px;
+    animation: svg-animation .75s ease forwards 0.15s;
+}
+#svg_logo path:nth-child(3) {
+    stroke-dasharray: 329px;
+    stroke-dashoffset: 329px;
+    animation: svg-animation .75s ease forwards 0.3s;
+}
+#svg_logo path:nth-child(4) {
+    stroke-dasharray: 162px;
+    stroke-dashoffset: 162px;
+    animation: svg-animation .75s ease forwards 0.45s;
+}
+#svg_logo path:nth-child(5) {
+    stroke-dasharray: 386px;
+    stroke-dashoffset: 386px;
+    animation: svg-animation .75s ease forwards .6s;
+}
+#svg_logo path:nth-child(6) {
+    stroke-dasharray: 77px;
+    stroke-dashoffset: 77px;
+    animation: svg-animation .75s ease forwards .75s;
+}
+#svg_logo path:nth-child(7) {
+    stroke-dasharray: 253px;
+    stroke-dashoffset: 253px;
+    animation: svg-animation .75s ease forwards .9s;
+}
+#svg_logo path:nth-child(8) {
+    stroke-dasharray: 314px;
+    stroke-dashoffset: 314px;
+    animation: svg-animation .75s ease forwards 1.05s;
+}
+#svg_logo path:nth-child(9) {
+    stroke-dasharray: 236px;
+    stroke-dashoffset: 236px;
+    animation: svg-animation .75s ease forwards 1.20s;
+}
+#svg_logo path:nth-child(10) {
+    stroke-dasharray: 329px;
+    stroke-dashoffset: 329px;
+    animation: svg-animation .75s ease forwards 1.35s;
+}
+#svg_logo path:nth-child(11) {
+    stroke-dasharray: 361px;
+    stroke-dashoffset: 361px;
+    animation: svg-animation .75s ease forwards 1.5s;
+}
+#svg_logo path:nth-child(12) {
+    stroke-dasharray: 253px;
+    stroke-dashoffset: 253px;
+    animation: svg-animation .75s ease forwards 1.65s;
+}
+#svg_logo path:nth-child(13) {
+    stroke-dasharray: 162px;
+    stroke-dashoffset: 162px;
+    animation: svg-animation .75s ease forwards 1.8s;
+}
+#svg_logo path:nth-child(14) {
+    stroke-dasharray: 310px;
+    stroke-dashoffset: 310px;
+    animation: svg-animation .75s ease forwards 1.95s;
+}
+#svg_logo path:nth-child(15) {
+    stroke-dasharray: 223px;
+    stroke-dashoffset: 223px;
+    animation: svg-animation .75s ease forwards 2.1s;
+}
+#svg_logo path:nth-child(16) {
+    stroke-dasharray: 223px;
+    stroke-dashoffset: 223px;
+    animation: svg-animation .75s ease forwards 2.25s;
+}

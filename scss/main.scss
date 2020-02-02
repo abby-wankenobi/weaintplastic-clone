@@ -1,6 +1,7 @@
 @import 'config';
 @import 'menu';
 @import 'sections';
+@import 'svgs';
 
 * { 
     box-sizing: border-box;
@@ -11,6 +12,7 @@ body {
     margin: 0; 
     font-family: 'Lato', Tahoma, Verdana, sans-serif;
     background-color: white;
+    animation: no-scroll 5s ease forwards;
 }
 
 // HEADINGS //
@@ -37,8 +39,9 @@ a {
     height: 0;
     justify-content: center;
     align-items: center;
-    -webkit-animation: example 3s ; /* Safari 4.0 - 8.0 */
-    animation-name: example 3s;
+    height: 100vh;
+    -webkit-animation: example 4s ease forwards 2.25s; /* Safari 4.0 - 8.0 */
+    animation-name: example 4s ease forwards 2.25s;
 }
 
 .headline {
@@ -51,6 +54,7 @@ a {
     font-size: 2rem;
     letter-spacing: 1rem;
     font-weight: 900;
+    margin-top: 100px;
     
     &:after {
         width: 100px;
@@ -60,43 +64,4 @@ a {
         background: #1D1D1F;
         height: 4px;
     }
-}
-
-#svg_logo {
-    width: 220px;
-    height: auto;
-}
-
-#svg_logo path:nth-child(1) {
-    stroke-dasharray: 10px;
-}
-#svg_logo path:nth-child(2) {
-    
-}
-#svg_logo path:nth-child(3) {
-    
-}
-#svg_logo path:nth-child(4) {
-    
-}
-#svg_logo path:nth-child(5) {
-    
-}
-#svg_logo path:nth-child(6) {
-    
-}
-#svg_logo path:nth-child(7) {
-    
-}
-#svg_logo path:nth-child(8) {
-    
-}
-#svg_logo path:nth-child(9) {
-    
-}
-#svg_logo path:nth-child(10) {
-    
-}
-#svg_logo path:nth-child(11) {
-    
 }

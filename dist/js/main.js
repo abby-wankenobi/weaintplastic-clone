@@ -1,22 +1,6 @@
-// Select DOM Items
-
-
-
-
-// if ($(window).width() > 600) {
-//     menu.hover( function() {
-//         menuNav.slideDown( 'medium' );
-//         menuNav.css( 'display', 'flex' );
-//     } );
-// 
-//     menu.mouseleave( function() {
-//         menuNav.slideUp( 'medium');
-//     } );
-// }
-
-
 $(document).ready(function() {  
     
+    ////// NAV MENU //////
     const menuBtn = $( '.menu-btn' );
     const menu = $( '.menu' );
     const menuNav = $( '.menu-nav' );
@@ -60,4 +44,11 @@ $(document).ready(function() {
     }  
     toggleNavbarMethod();  
     $(window).resize(toggleNavbarMethod);  
+    
+    
+    
+    /////// SVG ANIMATIONS ///////
+    const logo = $( '#svg_logo path' );
+    
+    logo.each( i => console.log(`Letter ${i} is ${logo[i].getTotalLength()}`))
 }); 
