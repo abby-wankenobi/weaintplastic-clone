@@ -9,6 +9,7 @@
     .logo {
         width: 220px;
         height: auto;
+        animation: fade-logo 5s ease forwards;
     }
 }
 
@@ -19,15 +20,15 @@
     padding-top: 100px;
     background: #FFF;
     
-    &:before {
-        content: '';
-        display: block;
-        height: 150px;
-        width: 120%;
-        position: relative;
-        left: 50%;
-        top: 0;
-    }
+    // &:before {
+    //     content: '';
+    //     display: block;
+    //     height: 150px;
+    //     // width: 120%;
+    //     position: relative;
+    //     left: 50%;
+    //     top: 0;
+    // }
     
     .gem-image {
         transform: translate(-50%,-80%); 
