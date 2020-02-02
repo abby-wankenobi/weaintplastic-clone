@@ -34,7 +34,7 @@
   cursor: pointer;
   transition: all .75s ease-out; }
   .menu-btn .btn-line {
-    width: 28px;
+    width: 30px;
     height: 3px;
     margin: 0 0 5px 0;
     background: black;
@@ -79,7 +79,7 @@
   background-color: #F3F3F3;
   clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); }
   #content_1 .logo {
-    width: 270px;
+    width: 220px;
     height: auto; }
 
 #content_2 {
@@ -155,3 +155,10 @@ a {
     display: block;
     background: #1D1D1F;
     height: 4px; }
+
+#svg_logo {
+  width: 220px;
+  height: auto; }
+
+#svg_logo path:nth-child(1) {
+  stroke-dasharray: 10px; }
