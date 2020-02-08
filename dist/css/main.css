@@ -52,6 +52,12 @@
   100% {
     overflow: auto; } }
 
+@keyframes test {
+  from {
+    color: pink; }
+  to {
+    color: blue; } }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -130,6 +136,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.svg-animation {
+  animation: test 2s ease forwards; }
 
 #svg_logo {
   width: 220px;

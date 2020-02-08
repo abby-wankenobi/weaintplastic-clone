@@ -1,4 +1,10 @@
+$(window).on('beforeunload', function(){
+  $(window).scrollTop(0);
+});
+
 $(document).ready(function() {  
+    
+    // $(this).scrollTop(0);
     
     ////// NAV MENU //////
     const menuBtn = $( '.menu-btn' );
@@ -49,6 +55,21 @@ $(document).ready(function() {
     
     /////// SVG ANIMATIONS ///////
     const logo = $( '#svg_logo path' );
-    
     logo.each( i => console.log(`Letter ${i} is ${logo[i].getTotalLength()}`))
+    
+    $(window).scroll(function () {
+        $('.onscroll-animation').each(function () {
+            var imagePos = $(this).offset().top;
+            var imageHeight = $(this).height();
+            var topOfWindow = $(window).scrollTop();
+            
+            console.log('position', imagePos, 'height', imageHeight, 'top', topOfWindow )
+
+            if (imagePos < topOfWindow + ( imageHeight + 400 ) && imagePos + imageHeight > topOfWindow) {
+                $(this).addClass("svg-animation");
+            } else {
+                $(this).removeClass("svg-animation");
+            }
+        });
+    });
 }); 

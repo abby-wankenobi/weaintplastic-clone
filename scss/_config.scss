@@ -62,3 +62,12 @@ $background-color: #F3F3F3;
         overflow: auto;
     }
 }
+
+@keyframes test {
+    from {
+        color: pink;
+    }
+    to {
+        color: blue;
+    }
+}
